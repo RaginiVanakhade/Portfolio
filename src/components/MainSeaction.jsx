@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import myprofile from "../assets/myprofile.jpeg";
-
+// import Skills from "./skills";
 const MainSeaction = ({ footerIcons }) => {
   return (
     <div>
@@ -36,6 +36,7 @@ const MainSeaction = ({ footerIcons }) => {
           <img src={myprofile} alt="profile" className="w-full h-full object-cover" />
         </div>
       </section>
+      {/* <Skills /> */}
     </div>
   );
 };
