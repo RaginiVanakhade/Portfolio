@@ -36,13 +36,21 @@ const App = () => {
 
         {/* Right */}
         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-8">
-          <ul className="flex flex-wrap items-center justify-center gap-4 text-lg">
-            {headerName.map((name, index) => (
-              <li key={index} className="cursor-pointer hover:text-gray-500 dark:hover:text-gray-300">
-                {name}
-              </li>
-            ))}
-          </ul>
+        <ul className="flex flex-wrap items-center justify-center gap-4 text-lg">
+  {headerName.map((name, index) => (
+    <li
+      key={index}
+      className="cursor-pointer hover:text-gray-500 dark:hover:text-gray-300"
+      onClick={() => {
+        const sectionId = name.toLowerCase(); // "Skills" → "skills"
+        const scrollTo = document.getElementById(sectionId);
+        scrollTo?.scrollIntoView({ behavior: "smooth" });
+      }}
+    >
+      {name}
+    </li>
+  ))}
+</ul>
 
           <button className="px-5 py-2 bg-yellow-400 text-black rounded-full shadow-md hover:bg-yellow-300">
             Contact
