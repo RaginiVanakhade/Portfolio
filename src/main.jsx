@@ -7,7 +7,7 @@ import App from './App';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App/>
+   <div className='m-2'> <App/></div>
   </StrictMode>
 );
 

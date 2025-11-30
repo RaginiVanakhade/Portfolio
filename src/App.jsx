@@ -51,14 +51,15 @@ const App = () => {
       </header>
 
       {/* MAIN SECTION */}
-      <MainSeaction footerIcons={footerIcons} />
+      <div></div>
+      <MainSeaction footerIcons={footerIcons}  />
 
       {/* FOOTER */}
-      <footer className="w-full py-10 px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6 bg-gray-100 dark:bg-gray-800 mt-20">
+      {/* <footer className="w-full py-10 px-6 md:px-10 flex flex-col md:flex-row justify-between items-center gap-6 bg-gradient-to-r from-yellow-400 to-orange-400 text-white text-lgdark:bg-gray-800 mt-20">
         <a href="mailto:raginivankhade1203@gmail.com" className="text-lg font-medium dark:text-gray-300">
           raginivankhade1203@gmail.com
         </a>
-      </footer>
+      </footer> */}
 
     </div>
   );
