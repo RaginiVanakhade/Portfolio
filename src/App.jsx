@@ -19,7 +19,7 @@ const App = () => {
   ];
 
   return (
-    <div className={isDarkMode ? "dark bg-black text-white" : "bg-white text-black"} id="main">
+    <div className={isDarkMode ? "bg-white text-black" :   "dark bg-black text-white"} id="main">
 
       {/* HEADER */}
       <header className="w-full py-6 px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4">
