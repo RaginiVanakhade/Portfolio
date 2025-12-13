@@ -1,5 +1,8 @@
 import PropTypes from "prop-types";
-import myprofile from "../assets/myprofile.jpeg";
+// import myprofile from "../assets/myprofile.jpeg";
+
+// Atish 
+import atishprofile from "../assets/atishprofile.jpeg"
 import Skills from "./skills";
 import Experience from "./Experience";
 import Resume from '../assets/Ragini-Vankhade-updated.pdf'
@@ -15,7 +18,7 @@ const MainSection = ({ footerIcons }) => {
       <div className="max-w-xl text-center md:text-left">
         <h1 className="text-4xl md:text-5xl font-bold leading-tight">
           Hi, I Am <br />
-          <span className="text-yellow-500">Ragini Vanakhade</span>
+          <span className="text-yellow-500">Atish Alhat</span>
         </h1>
 
         <p className="mt-4 text-gray-600 dark:text-gray-300 text-base md:text-lg">
@@ -49,7 +52,7 @@ const MainSection = ({ footerIcons }) => {
       <div className="relative">
         <div className="w-48 h-48 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-full overflow-hidden shadow-xl">
           <img
-            src={myprofile}
+            src={atishprofile}
             alt="profile"
             className="w-full h-full object-cover"
           />
