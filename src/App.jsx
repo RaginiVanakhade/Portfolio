@@ -25,7 +25,7 @@ const App = () => {
       <header className="w-full py-6 px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Left */}
         <div className="flex items-center gap-4">
-          <h1 className="text-2xl font-semibold whitespace-nowrap">Atish Alhat</h1>
+          <h1 className="text-2xl font-semibold whitespace-nowrap">Ragini Vanakhade</h1>
 
           <button
             onClick={() => setIsDarkMode(!isDarkMode)}
