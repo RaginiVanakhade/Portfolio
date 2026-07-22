@@ -5,7 +5,7 @@ import myprofile from "../assets/myprofile.jpeg";
 // import atishprofile from "../assets/atishprofile.jpeg"
 import Skills from "./skills";
 import Experience from "./Experience";
-import Resume from "../assets/Ragini-Vankhade-updated.pdf";
+import Resume from "../assets/raginiVankhade_updated.pdf";
 
 const MainSection = ({ footerIcons }) => {
   return (
